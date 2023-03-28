@@ -1,0 +1,86 @@
+ul{
+    /* width: 1500; */
+    height: 50px;
+    /* background-color: lightgray; */
+    /* 위아래 밑줄 */
+    border-bottom: 2px solid black; 
+    /* border-top: 1px solid black; */
+    /* 텍스트 가운데 */
+    text-align: center;
+    /* 텍스트 nav칸 가운데 */
+    line-height: 50px;
+    /* 리스트 . 또는 숫자 없애기 */
+    list-style: none;
+}
+
+ul li a{
+    /* a태그가 가진 밑줄 없앰 */
+    text-decoration: none;
+    /* 글자 영역뿐 전체영역 클릭해도 링크이동 */
+    /* display: block; */
+    /* 글자색상 */
+    color: black;
+    /* 글자 굵게 지정 */
+    font-weight: bold;
+    /* li태그 왼쪽 정렬 */
+    float: left;
+    /* 텍스트 간격 */
+    letter-spacing: 15px;
+    
+    /* 글자끼리 간격 */
+    margin-left: 130px;  
+}
+/* link태그에 마우스 오버시 변하는 스타일 설정 */
+ul li a:hover{
+    color:red;
+    border-bottom: 3px solid black;
+}
+
+/* ------------- footer---------- */
+.footer{
+    margin-top: 60px;
+    border-top: 2px solid black;
+    text-align: center;
+}
+
+input{
+    margin-top: 60px;
+    width: 250px; 
+    height: 20px;
+}
+
+
+
+
+/* ------------소분류 관련 -------------- */
+.mid_list > ol{
+    /* 가로 */
+    width: 1200px;
+    /* 세로 */
+    height: 30px;
+    /* 아래 간격 */
+    padding-bottom: 10px;
+    /* 왼쪽에서 부터 간격 */
+    padding-left: 555px;
+    /* 리스트 아래 검정선  */
+    border-bottom: 2px solid black;
+    /* 숫자 또는 . 없애기 */
+    list-style: none;
+    /* 글씨 간격 */
+    letter-spacing: 5px; 
+}
+
+ol li a{
+    /* 글씨 밑줄 없음 */
+    text-decoration: none;
+    /* 글씨 색 */
+    color: black;
+    /* 글씨 왼쪽 정렬 */
+    float: left;
+}
+
+
+ol li a:hover{
+    /* 마우스 오버시 1.2배 확대  */
+    transform:scale(1.2);
+} 
